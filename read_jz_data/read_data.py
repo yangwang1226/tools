@@ -44,7 +44,7 @@ def generate_sign(data: dict, api_secret: str) -> str:
 
 
 def test_public_params_sign():
-    url = "http://cloud2.jeez.cn:8201/openwy/api/ReportData/GetReportData"
+    url = "http://cloud11.jeez.cn:8201/openwy/api/ReportData/GetReportData"
     apiSecret = "dfad565d6f456da45f6ad454"
     
     timeStamp = str(int(time.time()))
@@ -56,7 +56,11 @@ def test_public_params_sign():
         "nonceStr": "123",
         "dbNumber": "htwywy",
         "ReportType": "CustomerService",
-        "Parms": [{"ParmName": "orgid", "ParmValue": 5}]
+        "ReDate": "2025-12-31 23:59:59",
+        "Parms" : [
+             {"ParmName": "orgid", "ParmValue": 1}, 
+             {"ParmName": "ReDate", "ParmValue": "2026-01-01 00:00:00.000"}
+             ]
     }
 
     # 文档明确指出的公共参数（只有这些参与签名）
