@@ -8,8 +8,8 @@ app = Flask(__name__)
 CORP_ID = "wwf91b2ae32f1286c9" # 您的企业ID
 
 # TODO: 等下在企业微信管理后台点击“随机获取”后，把这两个值粘贴到这里！
-TOKEN = "PLEASE_REPLACE_ME_WITH_YOUR_TOKEN"
-ENCODING_AES_KEY = "PLEASE_REPLACE_ME_WITH_YOUR_ENCODING_AES_KEY"
+TOKEN = "xqN5CUfe9cPWkBkEZHIGyNOO"
+ENCODING_AES_KEY = "t8T6CQj8y6DKYmFlL8dd1NJN4n4IXV6znzDmEDzXfkN"
 # ==========================================
 
 @app.route('/wechat', methods=['GET', 'POST'])
@@ -54,4 +54,4 @@ def wechat():
 
 if __name__ == '__main__':
     print("🚀 正在启动企业微信回调服务器，端口: 5000...")
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=80)
