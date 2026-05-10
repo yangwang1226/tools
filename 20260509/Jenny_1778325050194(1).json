@@ -1,0 +1,74 @@
+{
+  "session": {
+    "wxid": "a461333311",
+    "nickname": "Jenny",
+    "remark": "Jenny",
+    "displayName": "Jenny",
+    "type": "私聊",
+    "lastTimestamp": 1778218649,
+    "messageCount": 5
+  },
+  "messages": [
+    {
+      "localId": 2,
+      "createTime": 1775661804,
+      "formattedTime": "2026-04-08 23:23:24",
+      "type": "文本消息",
+      "localType": 1,
+      "content": "我是Jenny",
+      "isSend": 0,
+      "senderUsername": "a461333311",
+      "senderDisplayName": "Jenny",
+      "source": "<msgsource><greeting_flag>1</greeting_flag></msgsource>"
+    },
+    {
+      "localId": 1,
+      "createTime": 1775700433,
+      "formattedTime": "2026-04-09 10:07:13",
+      "type": "系统消息",
+      "localType": 10000,
+      "content": "你已添加了Jenny，以上是打招呼的消息。",
+      "isSend": null,
+      "senderUsername": "a461333311",
+      "senderDisplayName": "Jenny",
+      "source": "<msgsource>\n\t<signature>v1_NPFTmjnu</signature>\n\t<tmp_node>\n\t\t<publisher-id></publisher-id>\n\t</tmp_node>\n</msgsource>\n"
+    },
+    {
+      "localId": 3,
+      "createTime": 1775700794,
+      "formattedTime": "2026-04-09 10:13:14",
+      "type": "文本消息",
+      "localType": 1,
+      "content": "您好",
+      "isSend": 1,
+      "senderUsername": "wxid_vkvdpam2hubc22",
+      "senderDisplayName": "旭小姐的阳台花园（本人号）",
+      "source": "<msgsource>\n\t<pua>1</pua>\n\t<eggIncluded>1</eggIncluded>\n\t<signature>N0_V1_RtBe5smD|v1_4VlGwLxH</signature>\n\t<tmp_node>\n\t\t<publisher-id></publisher-id>\n\t</tmp_node>\n</msgsource>\n"
+    },
+    {
+      "localId": 4,
+      "createTime": 1775705835,
+      "formattedTime": "2026-04-09 11:37:15",
+      "type": "文本消息",
+      "localType": 1,
+      "content": "您是咨询绿植花箱造景么？[微笑]",
+      "isSend": 1,
+      "senderUsername": "wxid_vkvdpam2hubc22",
+      "senderDisplayName": "旭小姐的阳台花园（本人号）",
+      "source": "<msgsource>\n\t<pua>1</pua>\n\t<alnode>\n\t\t<cf>3</cf>\n\t\t<inlenlist>16</inlenlist>\n\t</alnode>\n\t<eggIncluded>1</eggIncluded>\n\t<signature>N0_V1_thZkYcfW|v1_5LOdJCY7</signature>\n\t<tmp_node>\n\t\t<publisher-id></publisher-id>\n\t</tmp_node>\n</msgsource>\n"
+    },
+    {
+      "localId": 5,
+      "createTime": 1778218649,
+      "formattedTime": "2026-05-08 13:37:29",
+      "type": "文本消息",
+      "localType": 1,
+      "content": "🌸友你好，很荣幸能加上您的微信[玫瑰][爱心]，我是旭小姐，谢谢我原始股东的大力支持[拥抱]\n\n正直春暖花开的季节，不知道您在花花草草中，有没有我能给您提供帮助的地方[憨笑]\n\n比如：花花草草的养护；居室阳台的绿色设计等等！我一定竭尽全力给您最专业的建议和帮助[抱拳][抱拳][抱拳]\n\n您有时间的话，我们聊两句[坏笑]",
+      "isSend": 1,
+      "senderUsername": "wxid_vkvdpam2hubc22",
+      "senderDisplayName": "旭小姐的阳台花园（本人号）",
+      "source": "<msgsource><alnode><fr>1</fr></alnode></msgsource>"
+    }
+  ],
+  "exportTime": "2026-05-09T19:10:50.200128"
+}
